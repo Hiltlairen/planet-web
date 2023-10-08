@@ -1,12 +1,16 @@
 /* Estilos generales de la página */
 :root{
     --black-green: #272829;
-    --green:#61677A;
+    --green:#2C3333;
     --green-white: #D8D9DA;
     --white-green: #FFF6E0;
+    --dia:#666666;
 }
 body {
-    background-color: var(--black-green);
+    background-image: url('../image/fondo3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--white-green)   ;
     width: 100vw;
     height: 100vh;
@@ -20,44 +24,61 @@ body {
 /* Div verde en el lado izquierdo */
 .logo-title{
     
-    width: 90%;
+    width: 95%;
     height:60px;
     margin: 10px;
     padding: 10px;
-    background-color: var(--black-green);
+    
     text-align: center;
 }
+.logo-img{
+    float: left;
+    flex: 1;
+    width: 60px;
+    height:60px;
+    background-color: white;
+}
 h1{
-    margin-top: 0px;
+    font-size: 70px;
+    margin-top: 10px;
+}
+#titulo-2{
+    color: white   ;
 }
 
 .exoplanet{
+    border-radius: 2%;
     display: flex;
     margin-top: 5%;
     margin-left: 1%;
     margin: 10px;
     padding: 10px;
-    width: 90%;
-    height: 1000px;
-    background-color: var(--green);
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    
     overflow: hidden;
 }
 .reference { 
-    width: 20%;
-    height: 100%;
-    background-color: var(--black-green);
-    overflow: hidden;
-    text-align: center
+    border-radius: 3%;
+    width: 25%;
+     /* Ancho fijo de 150px para el contenedor */
+    height: 100%; /* Altura del 100% para ocupar la altura completa del padre */
+    /* Color de fondo */
+    display: flex; /* Utilizar flexbox para alinear elementos verticalmente */
+    flex-direction: column; /* Colocar elementos en una columna vertical */
+    
 }
 
 /* Article en el lado derecho */
 
 .divContenedor {
     /*flex: 2;*/
+    border-radius: 2%;
     background-color: black;
-    width: 80%;
+    width: 75%;
     height: auto;/*ojo--------------------------*/
-    margin-left: 1%;
+    margin-left: 5%;
     text-align: center;
 }
 .image{
@@ -69,7 +90,8 @@ h1{
     margin-right: 5%;
     text-align: center;
 }
-video{
+
+.planet{
     margin-top: -60px;
     width: 500px;
     height: 400px;
@@ -77,8 +99,8 @@ video{
 .divContenedor div:nth-child(2){
     background-color: var(--pestaña);
     margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     height: auto;
     overflow: hidden;
     text-align: left;
@@ -86,8 +108,8 @@ video{
 .divContenedor div:nth-child(3){
     background-color: var(--pestaña);
     margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     height: auto;
     text-align: left;
 }
@@ -112,14 +134,17 @@ h2{
     background-color: var(--fondo);
     color: white;
     text-align: center;
+
 }
 
 .option-v{
-    width: 20%;
-    height: 100%; /* Ocupa todo el alto de la página */
+    border-radius: 2%;
+    width: 40%;
+    height: auto; /* Ocupa todo el alto de la página */
     background-color: var(--black-green);
 }
 .result{
+    border-radius: 2%;
     background-color: var(--black-green);
     width: 80%;
     height: 100%;

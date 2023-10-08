@@ -1,49 +1,88 @@
 :root{
-    --botones: #141E46;
-    --cuadros: #FF6969;
-    --letras: #BB2525;
+    --black-green: #272829;
+    --green:#61677A;
+    --green-white: #D8D9DA;
+    --white-green: #FFF6E0;
 }
-*{
-    background: #2c2c2c;
+.logo-title{
+    width: 43%;
+    height:130px;
+    margin-left: 30%;
 
+    padding: 10px;
+    background-image: url('../image/banner-2.png');
+    text-align: center;
+    border-radius: 2%;
 }
+.logo-img{
+    float: left;
+    display: flex;
+    width: 60px;
+    height:60px;
+}
+h1{
+    size: 20px;
+    display: flex;
+}
+
 body{
     width: 100vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0);
     
+}
+.videoFondo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 .image-logo{
     width: 90%;
     height:40px;
     margin: 10px;
     padding: 10px;
-    background-color: red;
+    background-color: var(--black-green);
     text-align: center;
     margin-left: 3%;
+    border-radius: 5%;
 
 }
 
 .Card-inic{
-    background-color: var(--cuadros);
-    width: auto;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-top: 80px;
-    align-items: center;
-    width: 350px;
-    height: 150px;
-    margin-left: 25%;
+    width: 300px; /* Ancho deseado para el div */
+    height: 200px; /* Altura deseada para el div */
+    background-color: #116d65;
+    margin: 0 auto; /* Margen automático horizontalmente */
+    text-align: center; /* Alineación del contenido al centro */
+    padding: 20px;
+    border-radius: 5%;
+    margin-top: 120px;
 
 }
 .Card-inic span:nth-child(1){
     background-color: var(--cuadros);
     color:var(--letras);
     display: block;
-    margin-left: 10%;
-    margin-top: 10px;
-
+    margin-top: 20px;
+    font-size: 28px;
+    size: 50px;
+}
+#t-b{
+    background-color: var(--cuadros);
+    color: var(--black-green);
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    margin-top: -1px;
+    /* Ancho del 100% para ocupar todo el ancho del contenedor */
+    
+    font-size: 28px;
+    size: 50px;
 }
 .Buttons-inic{
     width: 200px;
@@ -52,8 +91,9 @@ body{
     border: 1px solid #000000;
     border-radius: 5px;
     display:block;
-    background-color: var(--botones);
-    margin-left: 18%;
+    background-color: #093935;
+    margin-left: 16%;
     margin-top: 20px;
+    color: #093935;
     
 }

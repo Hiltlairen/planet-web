@@ -8,18 +8,70 @@
     background-color: brown;
 }
 .reference a {
-    display: flex; /* Hacer que los enlaces sean elementos de bloque */
-    background-color: var(--green-white);
-    color: var(--black-green);
-    font-size: 1em;
-    font-weight: 400;
-    padding: 10px 30px; /* Agregar relleno para controlar el tamaño */
-    margin-bottom: 10px; /* Agregar margen inferior entre los enlaces */
-     /* Cambiar el color del texto de los enlaces */
-    text-decoration: none; /* Eliminar subrayado predeterminado de los enlaces */
-    margin-top: 1px;
+    padding: 3px;
+    width: 100%; /* Ancho del 100% para ocupar todo el ancho del contenedor */
+    height: 50px; /* Altura de 50px para cada enlace */
+    background-color: var(--green-white); /* Color de fondo */
+    color: var(--black-green); /* Color de texto */
+    text-align: center; /* Alineación del texto al centro */
+    line-height: 50px; /* Centrar verticalmente el texto */
+    text-decoration: none;
+    border: #272829;
 }
-.reference a:nth-child(2){
-    display: block;
-    top: 0;
+.reference span1{
+    padding: 3px;
+    border-radius: 3%;
+    width: 100%; /* Ancho del 100% para ocupar todo el ancho del contenedor */
+    height: 50px; /* Altura de 50px para cada enlace */
+    background-color: var(--black-green); /* Color de fondo */
+    color: var(--green-white); /* Color de texto */
+    text-align: center; /* Alineación del texto al centro */
+    line-height: 50px; /* Centrar verticalmente el texto */
+    text-decoration: none;
+    border: #272829;
 }
+.planet-all{
+    padding: 3px;
+    width: 100%; /* Ancho del 100% para ocupar todo el ancho del contenedor */
+    height: 500px; /* Altura de 50px para cada enlace */
+    background-color: var(--green-white); /* Color de fondo */
+    color: var(--black-green); /* Color de texto */
+    text-align: center; /* Alineación del texto al centro */
+    line-height: 50px; /* Centrar verticalmente el texto */
+    text-decoration: none;
+    border: #272829;
+}
+.planet-all-2{
+    padding: 3px;
+    width: 100%; /* Ancho del 100% para ocupar todo el ancho del contenedor */
+    height: 260px; /* Altura de 50px para cada enlace */
+    background-color: var(--green-white); /* Color de fondo */
+    color: var(--black-green); /* Color de texto */
+    text-align: center; /* Alineación del texto al centro */
+    line-height: 50px; /* Centrar verticalmente el texto */
+    text-decoration: none;
+    border: #272829 ;
+    
+}
+.container {
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+  /* Estilo para los cuadros de introducir datos */
+  .input-box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  #diagrama{
+
+    height: 310px;
+
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
