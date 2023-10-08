@@ -1,0 +1,59 @@
+:root{
+    --botones: #141E46;
+    --cuadros: #FF6969;
+    --letras: #BB2525;
+}
+*{
+    background: #2c2c2c;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-logo{
+    width: 90%;
+    height:40px;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    margin-left: 3%;
+
+}
+
+.Card-inic{
+    background-color: var(--cuadros);
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 80px;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    margin-left: 25%;
+
+}
+.Card-inic span:nth-child(1){
+    background-color: var(--cuadros);
+    color:var(--letras);
+    display: block;
+    margin-left: 10%;
+    margin-top: 10px;
+
+}
+.Buttons-inic{
+    width: 200px;
+    height: 50px;
+    padding: 5px 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display:block;
+    background-color: var(--botones);
+    margin-left: 18%;
+    margin-top: 20px;
+    
+}

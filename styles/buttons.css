@@ -1,0 +1,25 @@
+:root{
+    --black-green: #272829;
+    --green:#61677A;
+    --green-white: #D8D9DA;
+    --white-green: #FFF6E0;
+}
+.button{
+    background-color: brown;
+}
+.reference a {
+    display: flex; /* Hacer que los enlaces sean elementos de bloque */
+    background-color: var(--green-white);
+    color: var(--black-green);
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px 30px; /* Agregar relleno para controlar el tamaño */
+    margin-bottom: 10px; /* Agregar margen inferior entre los enlaces */
+     /* Cambiar el color del texto de los enlaces */
+    text-decoration: none; /* Eliminar subrayado predeterminado de los enlaces */
+    margin-top: 1px;
+}
+.reference a:nth-child(2){
+    display: block;
+    top: 0;
+}
